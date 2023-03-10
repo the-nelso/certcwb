@@ -3,8 +3,10 @@ ul {
   margin: 0;
   padding: 0;
   margin-top: 25px;
+  margin-right: 20%;
   overflow: hidden;
   background-color: #F2F2F2;
+  float: right;
 }
 
 li {
@@ -13,10 +15,12 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: gray;
+  font-size: 12px;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  font-family: 'raleway', sans-serif;
 }
 
 li a:hover {
@@ -24,6 +28,49 @@ li a:hover {
 }
 
 img.logo {
-	float: left;
-	background: transparent;
+  width: fit-content;
+  height: fit-content;
+  margin-left: 20%;
+}
+
+img.rotate{
+  transform: rotate(-15deg);
+  position: relative;
+  width: 350px;
+  height: 200px;
+  left: 10px;
+  bottom: 25px;
+}
+
+div.content{
+  width: 50%;
+  height: fit-content;
+  margin-top: 20px;
+  margin-left: 20%;
+}
+
+div.circular{
+  border-radius: 50%;
+  background-color: #B6D47E;
+  width: 350px;
+  height: 350px;
+  float: left;
+}
+
+p.prop{
+  color: darkred;
+  font-size: 22px;
+  text-shadow: 2px 2px 5px black;
+  transform: rotate(-15deg);
+  text-align: center;
+  margin-right: 75px;
+}
+
+p.prop1{
+  color: darkred;
+  font-size: 22px;
+  text-shadow: 2px 2px 5px black;
+  transform: rotate(-15deg);
+  text-align: center;
+  margin-left: 75px;
 }
